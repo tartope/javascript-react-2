@@ -16,7 +16,6 @@ export const RandomNumber = () => {
     <div>
         Random Number: {randomNum}
         <br/>
-        <br/>
         <button onClick={()=> handleRandomNum()}>Generate</button>
     </div>
   )
